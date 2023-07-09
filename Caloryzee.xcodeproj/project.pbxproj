@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		255C69FC29ECF52A003E720B /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255C69FB29ECF52A003E720B /* HealthKit.framework */; };
+		25A94E3C29EC68D7003F2660 /* CaloryzeeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A94E3B29EC68D7003F2660 /* CaloryzeeApp.swift */; };
+		25A94E3E29EC68D7003F2660 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A94E3D29EC68D7003F2660 /* ContentView.swift */; };
+		25A94E4029EC68D9003F2660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25A94E3F29EC68D9003F2660 /* Assets.xcassets */; };
+		25A94E4329EC68D9003F2660 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25A94E4229EC68D9003F2660 /* Preview Assets.xcassets */; };
+		25A94E4B29EC6950003F2660 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A94E4A29EC6950003F2660 /* LoginView.swift */; };
+		25A94E4E29EC698E003F2660 /* RadiantBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A94E4D29EC698E003F2660 /* RadiantBackground.swift */; };
+		25A94E5329EC7180003F2660 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A94E5229EC7180003F2660 /* AppDelegate.swift */; };
+		25A94E5529EC7256003F2660 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A94E5429EC7256003F2660 /* LoginViewModel.swift */; };
+		25A94E5829ECA9AC003F2660 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A94E5729ECA9AC003F2660 /* HomeView.swift */; };
+		25A94E5A29ECAB21003F2660 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A94E5929ECAB21003F2660 /* DashboardView.swift */; };
+		25A94E5C29ECAB33003F2660 /* CaloryzeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A94E5B29ECAB33003F2660 /* CaloryzeView.swift */; };
+		25A94E5E29ECAB41003F2660 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A94E5D29ECAB41003F2660 /* SettingsView.swift */; };
+		25A94E6029ECB2AB003F2660 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25A94E5F29ECB2AB003F2660 /* GoogleService-Info.plist */; };
+		25D8E77929FCED8B004C64A9 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 25D8E77829FCED8B004C64A9 /* FirebaseAnalytics */; };
+		25D8E77B29FCED8B004C64A9 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 25D8E77A29FCED8B004C64A9 /* FirebaseAnalyticsOnDeviceConversion */; };
+		25D8E77D29FCED8B004C64A9 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 25D8E77C29FCED8B004C64A9 /* FirebaseAuth */; };
+		25D8E78029FCEDED004C64A9 /* NavigationStack in Frameworks */ = {isa = PBXBuildFile; productRef = 25D8E77F29FCEDED004C64A9 /* NavigationStack */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		255C69F929ECF52A003E720B /* Caloryzee.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Caloryzee.entitlements; sourceTree = "<group>"; };
+		255C69FB29ECF52A003E720B /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		255C69FD29ECF8A0003E720B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		25A94E3829EC68D7003F2660 /* Caloryzee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caloryzee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25A94E3B29EC68D7003F2660 /* CaloryzeeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloryzeeApp.swift; sourceTree = "<group>"; };
+		25A94E3D29EC68D7003F2660 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		25A94E3F29EC68D9003F2660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25A94E4229EC68D9003F2660 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		25A94E4A29EC6950003F2660 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		25A94E4D29EC698E003F2660 /* RadiantBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiantBackground.swift; sourceTree = "<group>"; };
+		25A94E5229EC7180003F2660 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25A94E5429EC7256003F2660 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		25A94E5729ECA9AC003F2660 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		25A94E5929ECAB21003F2660 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		25A94E5B29ECAB33003F2660 /* CaloryzeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloryzeView.swift; sourceTree = "<group>"; };
+		25A94E5D29ECAB41003F2660 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		25A94E5F29ECB2AB003F2660 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25A94E3529EC68D7003F2660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D8E77929FCED8B004C64A9 /* FirebaseAnalytics in Frameworks */,
+				25D8E77B29FCED8B004C64A9 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				25D8E78029FCEDED004C64A9 /* NavigationStack in Frameworks */,
+				255C69FC29ECF52A003E720B /* HealthKit.framework in Frameworks */,
+				25D8E77D29FCED8B004C64A9 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		255C69FA29ECF52A003E720B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				255C69FB29ECF52A003E720B /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25A94E2F29EC68D7003F2660 = {
+			isa = PBXGroup;
+			children = (
+				25A94E5F29ECB2AB003F2660 /* GoogleService-Info.plist */,
+				25A94E5629ECA996003F2660 /* Home */,
+				25A94E5229EC7180003F2660 /* AppDelegate.swift */,
+				25A94E4C29EC6979003F2660 /* Utils */,
+				25A94E4929EC693E003F2660 /* Login */,
+				25A94E3A29EC68D7003F2660 /* Caloryzee */,
+				25A94E3929EC68D7003F2660 /* Products */,
+				255C69FA29ECF52A003E720B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		25A94E3929EC68D7003F2660 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25A94E3829EC68D7003F2660 /* Caloryzee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25A94E3A29EC68D7003F2660 /* Caloryzee */ = {
+			isa = PBXGroup;
+			children = (
+				255C69FD29ECF8A0003E720B /* Info.plist */,
+				255C69F929ECF52A003E720B /* Caloryzee.entitlements */,
+				25A94E3B29EC68D7003F2660 /* CaloryzeeApp.swift */,
+				25A94E3D29EC68D7003F2660 /* ContentView.swift */,
+				25A94E3F29EC68D9003F2660 /* Assets.xcassets */,
+				25A94E4129EC68D9003F2660 /* Preview Content */,
+			);
+			path = Caloryzee;
+			sourceTree = "<group>";
+		};
+		25A94E4129EC68D9003F2660 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				25A94E4229EC68D9003F2660 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		25A94E4929EC693E003F2660 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				25A94E4A29EC6950003F2660 /* LoginView.swift */,
+				25A94E5429EC7256003F2660 /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		25A94E4C29EC6979003F2660 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				25A94E4D29EC698E003F2660 /* RadiantBackground.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		25A94E5629ECA996003F2660 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				25A94E5729ECA9AC003F2660 /* HomeView.swift */,
+				25A94E5929ECAB21003F2660 /* DashboardView.swift */,
+				25A94E5B29ECAB33003F2660 /* CaloryzeView.swift */,
+				25A94E5D29ECAB41003F2660 /* SettingsView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25A94E3729EC68D7003F2660 /* Caloryzee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25A94E4629EC68D9003F2660 /* Build configuration list for PBXNativeTarget "Caloryzee" */;
+			buildPhases = (
+				25A94E3429EC68D7003F2660 /* Sources */,
+				25A94E3529EC68D7003F2660 /* Frameworks */,
+				25A94E3629EC68D7003F2660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Caloryzee;
+			packageProductDependencies = (
+				25D8E77829FCED8B004C64A9 /* FirebaseAnalytics */,
+				25D8E77A29FCED8B004C64A9 /* FirebaseAnalyticsOnDeviceConversion */,
+				25D8E77C29FCED8B004C64A9 /* FirebaseAuth */,
+				25D8E77F29FCEDED004C64A9 /* NavigationStack */,
+			);
+			productName = Caloryzee;
+			productReference = 25A94E3829EC68D7003F2660 /* Caloryzee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25A94E3029EC68D7003F2660 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					25A94E3729EC68D7003F2660 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 25A94E3329EC68D7003F2660 /* Build configuration list for PBXProject "Caloryzee" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25A94E2F29EC68D7003F2660;
+			packageReferences = (
+				25A94E4F29EC707C003F2660 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				25A94E6129ECB3DC003F2660 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				255C69F629ECF04E003E720B /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */,
+				25D8E77729FCED8B004C64A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				25D8E77E29FCEDED004C64A9 /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */,
+			);
+			productRefGroup = 25A94E3929EC68D7003F2660 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25A94E3729EC68D7003F2660 /* Caloryzee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25A94E3629EC68D7003F2660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A94E4329EC68D9003F2660 /* Preview Assets.xcassets in Resources */,
+				25A94E6029ECB2AB003F2660 /* GoogleService-Info.plist in Resources */,
+				25A94E4029EC68D9003F2660 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25A94E3429EC68D7003F2660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A94E4B29EC6950003F2660 /* LoginView.swift in Sources */,
+				25A94E5A29ECAB21003F2660 /* DashboardView.swift in Sources */,
+				25A94E5829ECA9AC003F2660 /* HomeView.swift in Sources */,
+				25A94E4E29EC698E003F2660 /* RadiantBackground.swift in Sources */,
+				25A94E5529EC7256003F2660 /* LoginViewModel.swift in Sources */,
+				25A94E5E29ECAB41003F2660 /* SettingsView.swift in Sources */,
+				25A94E5C29ECAB33003F2660 /* CaloryzeView.swift in Sources */,
+				25A94E3E29EC68D7003F2660 /* ContentView.swift in Sources */,
+				25A94E5329EC7180003F2660 /* AppDelegate.swift in Sources */,
+				25A94E3C29EC68D7003F2660 /* CaloryzeeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		25A94E4429EC68D9003F2660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25A94E4529EC68D9003F2660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25A94E4729EC68D9003F2660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Caloryzee/Caloryzee.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Caloryzee/Preview Content\"";
+				DEVELOPMENT_TEAM = LUSNJUPKNU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Caloryzee/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app needs to read your active energy burned to track your daily fitness progress.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app requires access to your active energy burned data for tracking your fitness activities.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = codewithnavakanth.Caloryzee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		25A94E4829EC68D9003F2660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Caloryzee/Caloryzee.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Caloryzee/Preview Content\"";
+				DEVELOPMENT_TEAM = LUSNJUPKNU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Caloryzee/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app needs to read your active energy burned to track your daily fitness progress.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app requires access to your active energy burned data for tracking your fitness activities.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = codewithnavakanth.Caloryzee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25A94E3329EC68D7003F2660 /* Build configuration list for PBXProject "Caloryzee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25A94E4429EC68D9003F2660 /* Debug */,
+				25A94E4529EC68D9003F2660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25A94E4629EC68D9003F2660 /* Build configuration list for PBXNativeTarget "Caloryzee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25A94E4729EC68D9003F2660 /* Debug */,
+				25A94E4829EC68D9003F2660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		255C69F629ECF04E003E720B /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/matteopuc/swiftui-navigation-stack.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		25A94E4F29EC707C003F2660 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		25A94E6129ECB3DC003F2660 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		25D8E77729FCED8B004C64A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		25D8E77E29FCEDED004C64A9 /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/matteopuc/swiftui-navigation-stack.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		25D8E77829FCED8B004C64A9 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 25D8E77729FCED8B004C64A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		25D8E77A29FCED8B004C64A9 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 25D8E77729FCED8B004C64A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		25D8E77C29FCED8B004C64A9 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 25D8E77729FCED8B004C64A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		25D8E77F29FCEDED004C64A9 /* NavigationStack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 255C69F629ECF04E003E720B /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */;
+			productName = NavigationStack;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 25A94E3029EC68D7003F2660 /* Project object */;
+}
